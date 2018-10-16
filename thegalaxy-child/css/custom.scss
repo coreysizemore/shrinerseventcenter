@@ -33,13 +33,6 @@ header {
 
 header#header_home_mobile .mobile_navigation_bar, header#header_page_mobile .mobile_navigation_bar {
 	background: #ffffff;
-	padding: 12.5px 0px;
-	
-	#logo_mobile {
-		img {
-			height: 40px;
-		}
-	}
 	
 	#mobileopen {
 		color: $colortwo;
@@ -49,22 +42,7 @@ header#header_home_mobile .mobile_navigation_bar, header#header_page_mobile .mob
 header {
 	#nav_bar.full_navigation {
 		background: #ffffff;
-		height: 200px;
 		
-		&.scroll-fix {
-			height: 70px;
-		}
-		
-		#nav_menu {
-			#logo_main {
-				img {
-					padding: 10px 0px;
-					height: 80px;
-				}
-			}
-		}
-		
-
 		nav#primary_nav {
 			ul {
 				li {
@@ -113,10 +91,6 @@ header#header_page {
 			color: $colortwo;
 		}
 	}
-	
-}
-
-.sidebar {
 	
 }
 
