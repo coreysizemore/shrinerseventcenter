@@ -55,6 +55,38 @@ header {
 		}
 
 	}
+	
+	&#header_home {
+		#home_logo {
+			margin-top: -40px;
+			
+			#home_page_nav {
+				ul {
+					li {
+						a:link,
+						a:visited {
+							background: $colorone;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	&#header_home_mobile {
+		#home_logo {
+			#home_page_nav {
+				ul {
+					li {
+						a:link,
+						a:visited {
+							background: $colorone;
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 header#header_page {
