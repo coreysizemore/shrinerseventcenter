@@ -19,6 +19,10 @@ a#mobileclose:visited {
 	background: rgba($colorthree, 0.9);
 }
 
+#top_bar.containerwidth {
+	background: $colorfour;
+}
+
 header {
 	background: url('../img/home.jpg') no-repeat;
     background-size: cover;
@@ -60,6 +64,12 @@ header {
 		#home_logo {
 			margin-top: -40px;
 			
+			#home_logo_text_wrapper {
+				h1 {
+					font-weight: 700;
+				}
+			}
+			
 			#home_page_nav {
 				ul {
 					li {
@@ -67,6 +77,29 @@ header {
 						a:visited {
 							background: $colorone;
 						}
+					}
+				}
+			}
+		}
+		
+		#nav_bar.full_navigation {
+			#nav_menu {
+				#logo_main {
+					img {
+						height: 75px;
+						padding: 10px 0px;
+					}
+				}
+			}
+		}
+	}
+	
+	&#header_page {
+		#nav_bar.full_navigation {
+			#nav_menu {
+				#logo_main {
+					img {
+						padding: 10px 0px;
 					}
 				}
 			}
@@ -124,6 +157,16 @@ header#header_page {
 		}
 	}
 	
+	iframe#event_calendar {
+		height: 600px;
+	}
+	
+}
+
+.sidebar {
+	.business_information_wrapper {
+		background: $colortwo;
+	}
 }
 
 footer {
@@ -142,7 +185,7 @@ footer {
 	
 @media (min-width: 768px) and (max-width: 979px) {
 	
-	header#header_page {
+	header#header_page_mobile {
 		background: url('../img/page_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
@@ -158,7 +201,7 @@ footer {
 	    background-attachment: fixed;
 	}
 	
-	header#header_page {
+	header#header_page_mobile {
 		background: url('../img/page_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
@@ -182,7 +225,7 @@ footer {
 	    background-attachment: fixed;
 	}
 	
-	header#header_page {
+	header#header_page_mobile {
 		background: url('../img/page_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
